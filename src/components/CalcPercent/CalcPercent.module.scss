@@ -1,0 +1,37 @@
+.wrapper{
+  padding-top: 100px;
+  padding-bottom: 20px;
+
+  .calcWrapper{
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+    center{
+      padding: 10px;
+
+      button{
+        margin-right: 5px;
+        background: #37c781;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        height: 50px;
+        padding: 5px 20px;
+        cursor: pointer;
+      }
+    }
+
+    .outputWrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      div{
+        margin: 10px;
+      }
+    }
+  }
+}
+
